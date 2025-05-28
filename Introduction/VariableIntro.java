@@ -5,7 +5,6 @@ public class VariableIntro {
         /*
         * To initiate a variable:
         * datatype name = value;
-        *
         */
         double salary = 10000.56;
         int bonus = 250;

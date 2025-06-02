@@ -1,7 +1,7 @@
 package Lab03;
 import java.util.Scanner;
 
-public class Lab03 {
+public class MDLab03 {
     public static void main(String[] args) {
         System.out.println("Lab03, 80 Point Version\n");
 

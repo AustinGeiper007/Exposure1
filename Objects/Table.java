@@ -8,11 +8,11 @@ package Objects;
 public class Table {
     // Hello variables a-plenty
     // These are all the attributes we are granting our metaphorical table
-    double height;
-    double length;
-    double width;
-    double weight;
-    double price;
+    private double height;
+    private double length;
+    private double width;
+    private double weight;
+    private double price;
 
     // Default constructor - Special Method
     // name of method = the name of the class

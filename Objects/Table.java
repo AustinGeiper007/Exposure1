@@ -24,6 +24,16 @@ public class Table {
         price = 50;
     }
 
+    // Overloaded Constructor
+    // Allows you to build a table with something other than the default specifications
+    public Table(double height, double width, double length, double weight, double price){
+        this.height = height;
+        this.width = width;
+        this.length = length;
+        this.weight = weight;
+        this.price = price;
+    }
+
     // Accessors/Getters: Just spits out the value we want
     public double getHeight() {
         return height;

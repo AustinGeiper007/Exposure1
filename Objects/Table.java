@@ -35,6 +35,7 @@ public class Table {
     }
 
     // Accessors/Getters: Just spits out the value we want
+    // Keyword double in these methods specifies the data type that is returned
     public double getHeight() {
         return height;
     }

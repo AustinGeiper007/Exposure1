@@ -24,6 +24,4 @@ public class AGLab03 {
         System.out.println("Milliseconds: \t\t\t" + miliseconds);
 
     }
-
-
 }

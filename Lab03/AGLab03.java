@@ -17,7 +17,7 @@ public class AGLab03 {
 
         // Print it so you can actually see what happened!
         System.out.println("Lab03: 100 pt version \n");
-        System.out.println("Starting Miliseconds: \t" + startingMilliseconds);
+        System.out.println("Starting Milliseconds: \t" + startingMilliseconds);
         System.out.println("Hours: \t\t\t\t\t" + hours);
         System.out.println("Minutes: \t\t\t\t" + minutes);
         System.out.println("Seconds: \t\t\t\t" + seconds);

@@ -24,7 +24,7 @@ public class Table {
         price = 50;
     }
 
-    // Accessors/Getters
+    // Accessors/Getters: Just spits out the value we want
     public double getHeight() {
         return height;
     }
@@ -43,6 +43,27 @@ public class Table {
 
     public double getPrice() {
         return price;
+    }
+
+    // Setters/Mutators: Makes changes to the data
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 
 }

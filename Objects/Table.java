@@ -70,7 +70,11 @@ public class Table {
     }
 
     public void setWeight(double weight) {
-        this.weight = weight;
+        if(weight <= 1000) {
+            this.weight = weight;
+        }else{
+            this.weight = 1000;
+        }
     }
 
     public void setPrice(double price) {

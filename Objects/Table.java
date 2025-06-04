@@ -1,9 +1,6 @@
 package Objects;
 
-/*
-* Since this is Ikea, this is european furniture and all units are metric (cm and kg)
-*
-* */
+// Since this is Ikea, this is european furniture and all units are metric (cm and kg)
 
 public class Table {
     // Hello variables a-plenty

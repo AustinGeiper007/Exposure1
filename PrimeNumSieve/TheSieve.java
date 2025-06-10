@@ -16,11 +16,23 @@ public class TheSieve {
     public static void computePrimes(boolean primes[])
     {
         System.out.println("\nCOMPUTING PRIME NUMBERS");
+        // Assume everything is prime
+        for(int i = 2; i < primes.length; i++){
+            primes[i] = true;
+        }
     }
 
     public static void displayPrimes(boolean primes[])
     {
         System.out.println("\n\nPRIMES BETWEEN 1 AND "+ primes.length);
+
+        // Output all values of the list
+        for(int i = 2; i < primes.length; i++){
+            if(primes[i] == true) {
+                System.out.print(i + " ");
+            }
+        }
+
         System.out.println();
     }
 }

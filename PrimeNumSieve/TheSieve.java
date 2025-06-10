@@ -20,6 +20,17 @@ public class TheSieve {
         for(int i = 2; i < primes.length; i++){
             primes[i] = true;
         }
+
+        for(int i = 2; i < primes.length; i++){
+            // If true, its prime and sets multiples to false
+            // False will do nothing, as its multiples should have already been covered
+            if(primes[i]){
+                // Check multiples of i
+                for(int j = i*2; j < primes.length; j+=i){
+                    primes[j] = false;
+                }
+            }
+        }
     }
 
     public static void displayPrimes(boolean primes[])
